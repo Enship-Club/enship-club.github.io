@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head';
 import Footer from "../components/Footer";
+import Navbar from '../components/Navbar';
 
 export default function MyApp({Component, pageProps}) {
 	return (
@@ -11,6 +12,7 @@ export default function MyApp({Component, pageProps}) {
 			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<title>Enship Official Website</title>
 		</Head>
+			<Navbar />
 			<Component style={{fontFamily: 'IBM Plex Sans', backgroundColor:"#f1f1f1"}} {...pageProps} />
 			<Footer />
 		</>
