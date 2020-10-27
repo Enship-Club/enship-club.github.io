@@ -1,0 +1,186 @@
+const members = [
+	{
+		class:"12",
+		students: [
+			{
+				name: "Avikam Mangla",
+				post: "President"
+			},
+			{
+				name: "Vansh Tyagi",
+				post: "Vice President"
+			},
+			{
+				name: "Radhika Gupta",
+				post: "Vice President"
+			},
+			{
+				name: "Jasmer Singh Arora",
+				post: "Member"
+			},
+			{
+				name: "Vinayak Aggarwal",
+				post: "Member"
+			},
+			{
+				name: "Siddharth Arya",
+				post: "Member"
+			},
+			{
+				name: "Ilina Arya",
+				post: "Member"
+			},
+			{
+				name: "Priyanshi Ahuja",
+				post: "Member"
+			},
+			{
+				name: "Gurnika Kaur",
+				post: "Member"
+			},
+			{
+				name: "Adi Singh",
+				post: "Member"
+			},
+			{
+				name: "Aryaman Aggarwal",
+				post: "Member"
+			},
+			{
+				name: "Mahira Jain",
+				post: "Member"
+			},
+		]
+	},
+	{
+		class: "11",
+		students: [
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			},
+			{
+				name: "Malank Goel",
+				class: "Member"
+			}
+		]
+	}
+]
+
+export default function handler(req, res) {
+	res.statusCode = 200
+	res.setHeader('Content-Type', 'application/json')
+	res.end(JSON.stringify(members))
+}
