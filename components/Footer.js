@@ -1,8 +1,14 @@
 import { Col, Row } from "react-bootstrap";
+import { useRouter } from 'next/router'
 
 export default function Footer() {
+	const router = useRouter()
+	var bottomValue=null;
+	if (router.pathname === "/faculty") {
+		var bottomValue="0px";
+	}
 	return (
-		<div className="footer">
+			<div className="footer" style={{bottom: bottomValue}} >
 			<Row>
 			<Col sm={5}>
 			<p>&copy; Enship - The Entrepreneurship Club of Delhi Public School, R.K. Puram</p>
@@ -20,7 +26,7 @@ export default function Footer() {
 							background-color: #000;
 							/* height:360px; */
 							padding: 20px;
-							/* bottom: 0px; */
+							// bottom: 0px; 
 							color: #ffffff;
 							position: absolute;
 							width:100%;

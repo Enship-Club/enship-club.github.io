@@ -17,7 +17,6 @@ export default function CustomNavbar() {
 		<Nav.Link href="/faculty">Faculty</Nav.Link>
 		<Nav.Link href="/members">Members</Nav.Link>
 		<Nav.Link href="/alumni">Alumni</Nav.Link>
-		<Nav.Link href="/members">Members</Nav.Link>
 		<Nav.Link href="/events">Events</Nav.Link>
 		</Nav>
 		<Nav>
