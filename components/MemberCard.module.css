@@ -1,0 +1,15 @@
+.memberCard {
+	color:white;
+  background-color:#000;
+  height:100px;
+  margin:20px;
+  padding:20px;
+  border-radius: 10px;
+}
+
+.memberCard:hover {
+  text-decoration: none;
+  background-color: white;
+  color:black;
+  box-shadow:15px 10px 5px #f1f1f1;
+}
