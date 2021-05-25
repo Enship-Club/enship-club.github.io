@@ -3,7 +3,7 @@ name: Check Build and Export
 on:
   pull_request:
     branches:
-      - main
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
