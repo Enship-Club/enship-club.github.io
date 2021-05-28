@@ -10,7 +10,7 @@ export default function MainEvents() {
 			<Row>
       {mainEvents.map((event)=> (
 					<Col sm={12} md={6}>
-					<MainEventCard key={data.indexOf(event)} heading={event.heading} body={event.body} />
+					<MainEventCard key={mainEvents.indexOf(event)} heading={event.heading} body={event.body} />
 					</Col>
 			))}
 		</Row>
