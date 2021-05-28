@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 			<div style={{backgroundColor: "#f1f1f1"}}>
 		  <Banner />
-		  <StayTuned />
+		{/* <StayTuned /> */}
 			<MainEvents />
 		</div>
 	)
