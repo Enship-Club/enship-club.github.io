@@ -1,13 +1,13 @@
 const faculty = [
-	{
-		section: "Faculty",
-		faculties: [
-			{
-				name: "Anjana Virmani",
-				post: "Head Teacher"
-			}
-		]
-	}
-]
+  {
+    section: "Faculty",
+    faculties: [
+      {
+        name: "Anjana Virmani",
+        post: "Head Teacher",
+      },
+    ],
+  },
+];
 
-export default faculty
+export default faculty;

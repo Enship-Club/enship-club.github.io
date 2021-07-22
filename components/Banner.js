@@ -1,7 +1,5 @@
-import styles from './Banner.module.css';
+import styles from "./Banner.module.css";
 
 export default function Banner() {
-	return (
-			<div className={styles.banner} />
-	)
+  return <div className={styles.banner} />;
 }
