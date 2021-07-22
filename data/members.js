@@ -132,7 +132,35 @@ const members = [
     standard: "11",
     students: [
       {
+        name: "Aarshia Gupta",
+        post: "Member",
+      },
+      {
+        name: "Akul Ranjan",
+        post: "Member",
+      },
+      {
         name: "Anoushka Jain",
+        post: "Member",
+      },
+      {
+        name: "Anuj Ranjan",
+        post: "Member",
+      },
+      {
+        name: "Avihan Jain",
+        post: "Member",
+      },
+      {
+        name: "Divyansh Nayan",
+        post: "Member",
+      },
+      {
+        name: "Eva Aggarwal",
+        post: "Member",
+      },
+      {
+        name: "Harshita Bose",
         post: "Member",
       },
       {
@@ -140,7 +168,15 @@ const members = [
         post: "Member",
       },
       {
-        name: "Riaa Sehgal",
+        name: "Lomash Sharma",
+        post: "Member",
+      },
+      {
+        name: "Navya Gupta",
+        post: "Member",
+      },
+      {
+        name: "Niyati Rai",
         post: "Member",
       },
       {
@@ -148,7 +184,23 @@ const members = [
         post: "Member",
       },
       {
-        name: "Avihan Jain",
+        name: "Riaa Sehgal",
+        post: "Member",
+      },
+      {
+        name: "Riddhi Gupta",
+        post: "Member",
+      },
+      {
+        name: "Ritwik Sethi",
+        post: "Member",
+      },
+      {
+        name: "Samyak Kapoor",
+        post: "Member",
+      },
+      {
+        name: "Suhani Sethi",
         post: "Member",
       },
       {
@@ -160,23 +212,7 @@ const members = [
         post: "Member",
       },
       {
-        name: "Eva Aggarwal",
-        post: "Member",
-      },
-      {
-        name: "Suhani Sethi",
-        post: "Member",
-      },
-      {
-        name: "Harshita Bose",
-        post: "Member",
-      },
-      {
-        name: "Lomash Sharma",
-        post: "Member",
-      },
-      {
-        name: "Aarshia Gupta",
+        name: "Tara Kohli",
         post: "Member",
       },
       {
@@ -184,14 +220,43 @@ const members = [
         post: "Member",
       },
       {
-        name: "Srishti Agarwal",
+        name: "Vidushi Jaidka",
         post: "Member",
       },
     ],
   },
   {
     standard: "10",
-    students: [],
+    students: [
+      {
+        name: "Ananyaa Mathur",
+        post: "Member",
+      },
+      {
+        name: "Durlabh Biswas",
+        post: "Member",
+      },
+      {
+        name: "Kaashvi Goel",
+        post: "Member",
+      },
+      {
+        name: "Pranav Aneja",
+        post: "Member",
+      },
+      {
+        name: "Sefat Ahluwalia",
+        post: "Member",
+      },
+      {
+        name: "Shivansh Banerjee",
+        post: "Member",
+      },
+      {
+        name: "Spurti Nimbali",
+        post: "Member",
+      },
+    ],
   },
   {
     standard: "9",
