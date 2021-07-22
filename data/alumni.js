@@ -1,5 +1,62 @@
 const alumni = [
   {
+    batch: "2020-2021",
+    students: [
+      {
+        name: "Avikam Mangla",
+        post: "President",
+      },
+      {
+        name: "Vansh Tyagi",
+        post: "Vice President",
+      },
+      {
+        name: "Radhika Gupta",
+        post: "Vice President",
+      },
+      {
+        name: "Madhav Shekhar Sharma",
+        post: "Director",
+      },
+      {
+        name: "Jasmer Singh Arora",
+        post: "Member",
+      },
+      {
+        name: "Vinayak Aggarwal",
+        post: "Member",
+      },
+      {
+        name: "Siddharth Arya",
+        post: "Member",
+      },
+      {
+        name: "Ilina Arya",
+        post: "Member",
+      },
+      {
+        name: "Priyanshi Ahuja",
+        post: "Member",
+      },
+      {
+        name: "Gurnika Kaur",
+        post: "Member",
+      },
+      {
+        name: "Adi Singh",
+        post: "Member",
+      },
+      {
+        name: "Aryaman Aggarwal",
+        post: "Member",
+      },
+      {
+        name: "Mahira Jain",
+        post: "Member",
+      },
+    ],
+  },
+  {
     batch: "2019-2020",
     students: [
       {

@@ -3,100 +3,7 @@ const members = [
     standard: "12",
     students: [
       {
-        name: "Avikam Mangla",
-        post: "President",
-      },
-      {
-        name: "Vansh Tyagi",
-        post: "Vice President",
-      },
-      {
-        name: "Radhika Gupta",
-        post: "Vice President",
-      },
-      {
-        name: "Jasmer Singh Arora",
-        post: "Member",
-      },
-      {
-        name: "Vinayak Aggarwal",
-        post: "Member",
-      },
-      {
-        name: "Siddharth Arya",
-        post: "Member",
-      },
-      {
-        name: "Ilina Arya",
-        post: "Member",
-      },
-      {
-        name: "Priyanshi Ahuja",
-        post: "Member",
-      },
-      {
-        name: "Gurnika Kaur",
-        post: "Member",
-      },
-      {
-        name: "Adi Singh",
-        post: "Member",
-      },
-      {
-        name: "Aryaman Aggarwal",
-        post: "Member",
-      },
-      {
-        name: "Mahira Jain",
-        post: "Member",
-      },
-    ],
-  },
-  {
-    standard: "11",
-    students: [
-      {
-        name: "Malank Goel",
-        post: "Member",
-      },
-      {
-        name: "Aditya Mathur",
-        post: "Member",
-      },
-      {
-        name: "Dev Rateria",
-        post: "Member",
-      },
-      {
-        name: "Shashwat Raj",
-        post: "Member",
-      },
-      {
-        name: "Saathvik Sharma",
-        post: "Member",
-      },
-      {
-        name: "Disha Khanna",
-        post: "Member",
-      },
-      {
-        name: "Advitya Singhal",
-        post: "Member",
-      },
-      {
-        name: "Maanya Sareen",
-        post: "Member",
-      },
-      {
-        name: "Vidur Sahni",
-        post: "Member",
-      },
-      {
-        name: "Vaishnav Garodia",
-        post: "Member",
-      },
-      {
-        name: "SP Thanusree",
+        name: "Aansh Sharma",
         post: "Member",
       },
       {
@@ -104,47 +11,11 @@ const members = [
         post: "Member",
       },
       {
-        name: "Quilin Talukdar",
+        name: "Aditya Mathur",
         post: "Member",
       },
       {
-        name: "Armaan Gulaty",
-        post: "Member",
-      },
-      {
-        name: "Tulip Mittal",
-        post: "Member",
-      },
-      {
-        name: "Siddhanth Shetty",
-        post: "Member",
-      },
-      {
-        name: "Siddhansh Narang",
-        post: "Member",
-      },
-      {
-        name: "Krishnna Nayyarr",
-        post: "Member",
-      },
-      {
-        name: "Sanya Thakur",
-        post: "Member",
-      },
-      {
-        name: "Neasha Mittal",
-        post: "Member",
-      },
-      {
-        name: "Aansh Sharma",
-        post: "Member",
-      },
-      {
-        name: "Taneesha Daga",
-        post: "Member",
-      },
-      {
-        name: "Sanchita kapoor",
+        name: "Advitya Singhal",
         post: "Member",
       },
       {
@@ -152,11 +23,39 @@ const members = [
         post: "Member",
       },
       {
-        name: "Mehak Aggarwal",
+        name: "Archisha Bansal",
         post: "Member",
       },
       {
-        name: "Archisha Bansal",
+        name: "Armaan Gulaty",
+        post: "Member",
+      },
+      {
+        name: "Armaan Gulaty",
+        post: "Member",
+      },
+      {
+        name: "Dev Rateria",
+        post: "Member",
+      },
+      {
+        name: "Disha Khanna",
+        post: "Member",
+      },
+      {
+        name: "Krishnna Nayyarr",
+        post: "Member",
+      },
+      {
+        name: "Maanya Sareen",
+        post: "Member",
+      },
+      {
+        name: "Malank Goel",
+        post: "Member",
+      },
+      {
+        name: "Mehak Aggarwal",
         post: "Member",
       },
       {
@@ -164,17 +63,73 @@ const members = [
         post: "Member",
       },
       {
-        name: "Shaurya Parihar",
+        name: "Neasha Mittal",
+        post: "Member",
+      },
+      {
+        name: "Pratyush Singh",
+        post: "Member",
+      },
+      {
+        name: "Quilin Talukdar",
         post: "Member",
       },
       {
         name: "Ridhhin Grover",
         post: "Member",
       },
+      {
+        name: "Saathvik Sharma",
+        post: "Member",
+      },
+      {
+        name: "Sanchita Kapoor",
+        post: "Member",
+      },
+      {
+        name: "Sanya Thakur",
+        post: "Member",
+      },
+      {
+        name: "Shashwat Raj",
+        post: "Member",
+      },
+      {
+        name: "Shaurya Parihar",
+        post: "Member",
+      },
+      {
+        name: "Siddhansh Narang",
+        post: "Member",
+      },
+      {
+        name: "Siddhanth Shetty",
+        post: "Member",
+      },
+      {
+        name: "SP Thanusree",
+        post: "Member",
+      },
+      {
+        name: "Srishti Agarwal",
+        post: "Member",
+      },
+      {
+        name: "Taneesha Daga",
+        post: "Member",
+      },
+      {
+        name: "Tulip Mittal",
+        post: "Member",
+      },
+      {
+        name: "Vidur Sahni",
+        post: "Member",
+      },
     ],
   },
   {
-    standard: "10",
+    standard: "11",
     students: [
       {
         name: "Anoushka Jain",
@@ -235,7 +190,11 @@ const members = [
     ],
   },
   {
-    standard: "8",
+    standard: "10",
+    students: [],
+  },
+  {
+    standard: "9",
     students: [
       {
         name: "Ryan Kumar",
