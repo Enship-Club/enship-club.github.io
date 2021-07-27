@@ -1,20 +1,32 @@
-import { Card } from "react-bootstrap";
+import { Row, Container, Col } from "react-bootstrap";
+import MainEventCard from "./MainEventCard";
+import ModalEventCard from "./ModalEventCard";
+import mainEvents from "../data/mainEvents";
 
-export default function MainEventCard({ heading, body }) {
+export default function MainEvents() {
   return (
-    <Card
-      style={{
-        padding: "5px",
-        marginBottom: "12px",
-        maxWidth: "490px",
-        height: "100%",
-      }}
-    >
-      <Card.Body style={{ textAlign: "center" }}>
-        <Card.Title>{heading}</Card.Title>
-        <hr />
-        <Card.Text>{body}</Card.Text>
-      </Card.Body>
-    </Card>
+    <div style={{ margin: "20px 15%" }}>
+      <Container>
+        {<div>
+          <div style={{ display:"flex",marginBottom:"2rem", margin: "10px auto"}}>
+            <div style={{margin: "20px auto"}}>
+              <h1 style={{marginBottom:"30px",marginTop:"6rem", margin: "20px auto", fontSize: "50px"}}>Events</h1>
+            </div>
+          </div>
+          <div style={{display: "grid",gridGap: "2rem",gridAutoColumns: "1fr",gridTemplateColumns: "repeat(2,1fr)"}}>
+          {mainEvents.map((event) => (
+              <MainEventCard
+                key={mainEvents.indexOf(event)}
+                heading={event.heading}
+                body={event.body}
+                ModalHeading={event.ModalHeading}
+                Description={event.Description}
+              />
+          ))}
+          </div>
+        </div>}
+      </Container>
+    </div>
   );
 }
+
