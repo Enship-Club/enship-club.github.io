@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-import handleShow from "/components/ModalEventCard";
+
 
 export default function MainEventCard({ heading, body, ModalHeading, Description }) {
   return (
