@@ -1,6 +1,5 @@
 import { Row, Container, Col } from "react-bootstrap";
 import MainEventCard from "./MainEventCard";
-import ModalEventCard from "./ModalEventCard";
 import mainEvents from "../data/mainEvents";
 
 export default function MainEvents() {
