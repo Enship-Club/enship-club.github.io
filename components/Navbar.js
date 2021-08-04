@@ -23,6 +23,7 @@ export default function CustomNavbar() {
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/faculty">Faculty</Nav.Link>
             <Nav.Link href="/members">Members</Nav.Link>
             <Nav.Link href="/alumni">Alumni</Nav.Link>
