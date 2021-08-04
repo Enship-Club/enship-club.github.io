@@ -4,16 +4,17 @@ import mainEvents from "../data/mainEvents";
 
 export default function MainEvents() {
   return (
-    <div style={{ margin: "20px 15%" }}>
+    <div style={{ marginTop: "32px" }}>
       <Container>
         <h3 style={{ textAlign: "center" }}>Main Events</h3>
-        <Row>
+        <Row style={{ marginTop: "32px" }}>
           {mainEvents.map((event) => (
-            <Col sm={12} md={6}>
+            <Col style={{ marginBottom: "8px" }} sm={12} md={6}>
               <MainEventCard
                 key={mainEvents.indexOf(event)}
                 heading={event.heading}
                 body={event.body}
+                modalBody={event.modalBody}
               />
             </Col>
           ))}
