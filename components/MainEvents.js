@@ -9,7 +9,11 @@ export default function MainEvents() {
         <h3 style={{ textAlign: "center" }}>Main Events</h3>
         <Row style={{ marginTop: "32px" }}>
           {mainEvents.map((event) => (
-            <Col style={{ marginBottom: "8px" }} sm={12} md={6}>
+            <Col
+              style={{ padding: "0 4px", marginBottom: "8px" }}
+              sm={12}
+              md={4}
+            >
               <MainEventCard
                 key={mainEvents.indexOf(event)}
                 heading={event.heading}

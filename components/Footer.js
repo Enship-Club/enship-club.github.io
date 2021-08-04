@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 export default function Footer() {
   const router = useRouter();
   var bottomValue = null;
-  if (router.pathname === "/faculty") {
+  if (router.pathname === "/faculty" || router.pathname === "/events") {
     var bottomValue = "0px";
   }
   return (

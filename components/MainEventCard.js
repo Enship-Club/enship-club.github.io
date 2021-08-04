@@ -8,18 +8,17 @@ export default function MainEventCard({ heading, body, modalBody }) {
       <div
         style={{
           flexBasis: "0.7px",
-          border: "1px solid #333",
+          border: "1px solid rgb(231, 231, 231)",
           padding: "2.5rem",
           borderRadius: "10px",
           height: "100%",
-          marginBottom: "8px",
           cursor: "pointer",
         }}
         onClick={() => setShow(true)}
       >
-        <h5>
+        <h4>
           <p>{heading}</p>
-        </h5>
+        </h4>
         <div>
           <p>{body}</p>
         </div>
