@@ -1,97 +1,41 @@
 const mainEvents = [
   {
-    heading: "Event 1",
-    body: "A surprise event whose details will be disclosed on the spot and participants perform accordingly.",
+    heading: "Business Plan",
+    body: "The flagship event of ENSHIP's annual event, the Business Plan event requires teams to formulate proper, applicable business plans with the required data analysis.",
     modalBody: `
-    An on the spot photography event on a given topic.
-
-    Classes: IX-X.
-    2 Team(s) per school.
-    1 Participant(s) per team.
-    Teams will compete each other.
-    Topics will be announced on the day of the event.
-    Photos to be submitted in RAW format only.
-    Judgement Criteria:
-        a. Creativity.
-        b. Relevance to Topic.
-        c. Technical Aspects.
-        d. Clarity.
+    The business plan event is conducted in 2 rounds:
+        1. Qualification round
+        2. Final round
     `,
   },
   {
-    heading: "Event 2",
-    body: "A surprise event whose details will be disclosed on the spot and participants perform accordingly.",
+    heading: "Quiz",
+    body: "The entrepreneurship quiz assesses the participants knowledge of the real world of pioneer-dom and the ability to which one can apply it. ",
     modalBody: `
-    An on the spot photography event on a given topic.
-
-    Classes: IX-X.
-    2 Team(s) per school.
-    1 Participant(s) per team.
-    Teams will compete each other.
-    Topics will be announced on the day of the event.
-    Photos to be submitted in RAW format only.
-    Judgement Criteria:
-        a. Creativity.
-        b. Relevance to Topic.
-        c. Technical Aspects.
-        d. Clarity.
+    The quiz event has two rounds: 
+        1. Preliminary round
+        2. Final round
     `,
   },
   {
-    heading: "Event 3",
-    body: "A surprise event whose details will be disclosed on the spot and participants perform accordingly.",
+    heading: "Ad-Making",
+    body: "Ad-making not only tests the creativity of the participants but also assesses their ability to make their idea stand out to their consumer base. It emphasises on the role of marketing and advertising in running a successful business.",
     modalBody: `
-    An on the spot photography event on a given topic.
-
-    Classes: IX-X.
-    2 Team(s) per school.
-    1 Participant(s) per team.
-    Teams will compete each other.
-    Topics will be announced on the day of the event.
-    Photos to be submitted in RAW format only.
-    Judgement Criteria:
-        a. Creativity.
-        b. Relevance to Topic.
-        c. Technical Aspects.
-        d. Clarity.
+    T.B.D
     `,
   },
   {
-    heading: "Event 4",
-    body: "A surprise event whose details will be disclosed on the spot and participants perform accordingly.",
+    heading: "Group Discussion",
+    body: "Participants have a round table discussion on a topic that is provided to them on the spot and the participants present their arguments one after the other. The ability to analyse and find flaws in the opponent’s logic on the spot is essential to ensure victory.",
     modalBody: `
-    An on the spot photography event on a given topic.
-
-    Classes: IX-X.
-    2 Team(s) per school.
-    1 Participant(s) per team.
-    Teams will compete each other.
-    Topics will be announced on the day of the event.
-    Photos to be submitted in RAW format only.
-    Judgement Criteria:
-        a. Creativity.
-        b. Relevance to Topic.
-        c. Technical Aspects.
-        d. Clarity.
+    T.B.D
     `,
   },
   {
-    heading: "Event 5",
-    body: "A surprise event whose details will be disclosed on the spot and participants perform accordingly.",
+    heading: "Surprise",
+    body: "This is the most exciting sub-event of all! Each year, teams are surprised with a unique event that tests entrepreneurial skills in unconventional, creative ways.",
     modalBody: `
-    An on the spot photography event on a given topic.
-
-    Classes: IX-X.
-    2 Team(s) per school.
-    1 Participant(s) per team.
-    Teams will compete each other.
-    Topics will be announced on the day of the event.
-    Photos to be submitted in RAW format only.
-    Judgement Criteria:
-        a. Creativity.
-        b. Relevance to Topic.
-        c. Technical Aspects.
-        d. Clarity.
+    There are 2-3 rounds and participants should be prepared for literally anything because each round is completely different.
     `,
   },
 ];
