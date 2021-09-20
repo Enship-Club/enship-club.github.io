@@ -2,6 +2,34 @@ const members = [
   {
     standard: "12",
     students: [
+       {
+        name: "Malank Goel",
+        post: "President",
+      },
+      {
+        name: "Navya Dewan",
+        post: "President",
+      },
+      {
+        name: "Aditya Mathur",
+        post: "Vice President",
+      },
+      {
+        name: "Saathvik Sharma",
+        post: "Vice President",
+      },
+      {
+        name: "Vidur Sahni",
+        post: "Director",
+      },
+      {
+        name: "Pratyush Singh",
+        post: "Director",
+      },
+      {
+        name: "Alia Fatima",
+        post: "Creative Head",
+      },
       {
         name: "Aansh Sharma",
         post: "Member",
@@ -11,15 +39,7 @@ const members = [
         post: "Member",
       },
       {
-        name: "Aditya Mathur",
-        post: "Member",
-      },
-      {
         name: "Advitya Singhal",
-        post: "Member",
-      },
-      {
-        name: "Alia Fatima",
         post: "Member",
       },
       {
@@ -51,23 +71,12 @@ const members = [
         post: "Member",
       },
       {
-        name: "Malank Goel",
-        post: "Member",
-      },
-      {
         name: "Mehak Aggarwal",
         post: "Member",
       },
-      {
-        name: "Navya Dewan",
-        post: "Member",
-      },
+
       {
         name: "Neasha Mittal",
-        post: "Member",
-      },
-      {
-        name: "Pratyush Singh",
         post: "Member",
       },
       {
@@ -76,10 +85,6 @@ const members = [
       },
       {
         name: "Ridhhin Grover",
-        post: "Member",
-      },
-      {
-        name: "Saathvik Sharma",
         post: "Member",
       },
       {
@@ -120,10 +125,6 @@ const members = [
       },
       {
         name: "Tulip Mittal",
-        post: "Member",
-      },
-      {
-        name: "Vidur Sahni",
         post: "Member",
       },
     ],
